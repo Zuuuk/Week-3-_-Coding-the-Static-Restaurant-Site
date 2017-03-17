@@ -1,0 +1,56 @@
+/**HEADER **/
+
+#header-nav {
+	background-color: yellow;
+	border-radius: 0;
+	border: 0;
+	height: 100px;
+}
+
+.navbar-brand { /*Name */
+	font-family: "Times New Roman", Georgia, Serif;
+	color: green;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px red;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;	
+	float: left;
+}
+
+.navbar-brand :hover, 
+.navbar-brand :focus {
+	text-decoration: none;
+}
+#collapsable-nav {
+	margin-top: 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+#collapsable-nav li {
+	border:0;
+}
+
+h2.text-center {
+margin-bottom: 20px;
+color: red;
+font-weight: bold;
+}
+
+.menu-content{
+background: grey;
+border: 1px solid black;
+box-sizing: border-box;
+padding: 5px;
+margin: 5px;
+}
+
+.text-center {
+color: blue;
+font-style: italic;
+margin-bottom: 5px;
+margin-top: 5px;
+}
