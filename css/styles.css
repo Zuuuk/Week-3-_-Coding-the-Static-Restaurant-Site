@@ -1,0 +1,78 @@
+body {
+	background-color: cornsilk!important;
+}
+#header-nav {
+	background-color: gold;
+	border-radius: 0;
+	border: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+.navbar-brand h1{
+	font-family: "mv boli", Serif;
+	font-weight: bold;
+	color: darkolivegreen;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px olivedrab;
+	margin: -5px;
+}
+.navbar-brand :hover, 
+.navbar-brand :focus {
+color: yellowgreen;
+text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid darkolivegreen;
+}
+#collapsable-nav {
+padding: 0;
+}
+#nav-list {
+ margin: 0px;
+}
+#nav-list a {
+  color: olive;
+  font-family: "verdana", Serif;
+  text-align: center;
+  background-color: seashell;
+  border-bottom: .5px solid gold;
+}
+#nav-list a:hover {
+  background: blanchedalmond;
+}
+
+h2.text-center {
+font-family: "verdana", Serif;
+margin-bottom: 20px;
+color: firebrick;
+font-weight: bold;
+}
+
+.menu-content{
+background: seashell;
+border: 1px solid gold;
+box-sizing: border-box;
+padding: 15px;
+color: saddlebrown;
+}
+
+h3.text-center {
+color: olive;
+font-family: "verdana", Serif;
+font-style: italic;
+margin: 0;
+}
+.menu-content a {
+	color: gold;
+}
+.menu-content a:hover,
+.menu-content a:focus {
+	color: olive;
+	text-decoration: none;
+}
+@media (max-width: 991px) {
+.box {
+	margin-bottom: 30px;
+	}
+}
